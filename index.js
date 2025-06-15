@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 let lastResult = "Đang chờ...";
 
 // THAY LINK NÀY mỗi lần bạn có token mới
-const ws = new WebSocket("wss://ajhuasadqw23.xyz/websocket?d=TOKEN_MOI_CUA_BAN");
+const ws = new WebSocket("wss://ajhuasadqw23.xyz/websocket?d=YVhCa2JtaGtiRzQ9fC05OXwxNzQ5OTk3MDI0OTcxfGU5OGU5MTRlM2Q0MDc1NDhhOTU2NTVhOWI5MDJlNDcyfDRhZGM3ZTk3MzE4MTE2ZjVjMzgyMDM5YjE1ZGVkNDVj");
 
 ws.on("open", () => {
   console.log("✅ Đã kết nối WebSocket");
